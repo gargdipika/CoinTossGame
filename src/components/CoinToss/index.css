@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+}
+.main-container {
+  height: 70vh;
+  width: 30vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.heading {
+  color: #a35200;
+}
+
+.button {
+  background-color: #e2a139;
+  border-radius: 10px;
+  color: #a35200;
+  border: none;
+  height: 34px;
+  width: 136px;
+}
+.result-container {
+  display: flex;
+}
+.result {
+  margin: 10px;
+}
